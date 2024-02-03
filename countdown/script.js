@@ -32,11 +32,7 @@ const startCountdown = () => {
       if (seconds === 0) {
         clearInterval(countdownInterval);
         alert('Time is up!');
-<<<<<<< HEAD
-        timer.textContent = '';
-=======
         timer.textContent = '00:00';
->>>>>>> 58374184038183dd9085445f7292d4afe60479e3
       }
     }, 1000);
   };
